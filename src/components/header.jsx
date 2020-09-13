@@ -8,20 +8,17 @@ export class Header extends Component {
           <div className="overlay">
             <div className="container">
               <div className="row">
-                <div className="col-md-8 col-md-offset-2 intro-text">
-                  <h1>
-                    {this.props.data ? this.props.data.title : "Loading"}
-                    <span></span>
-                  </h1>
-                  <p>
-                    {this.props.data ? this.props.data.paragraph : "Loading"}
-                  </p>
-                  <a
-                    href="#features"
-                    className="btn btn-custom btn-lg page-scroll"
-                  >
-                    Learn More
-                  </a>{" "}
+                <div className="col-md-6 col-md-offset-2 intro-text">
+                  <div style={{backgroundColor:"#fff",borderRadius:40,height:40}}>
+                  </div>
+                </div>
+                <div className="col-md-4 col-md-offset-2">
+                  <div style={{backgroundColor:"#fff",borderRadius:40,height:40}}>
+                  </div>
+                </div>
+                <div className="col-md-2 col-md-offset-2" style={{paddingBottom:150}}>
+                  <div style={{backgroundColor:"#fff",borderRadius:40,height:40}}>
+                  </div>
                 </div>
               </div>
             </div>

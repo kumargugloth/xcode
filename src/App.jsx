@@ -8,6 +8,10 @@ import Gallery from './components/gallery';
 import Testimonials from './components/testimonials';
 import Team from './components/Team';
 import Contact from './components/contact';
+import ExpertsPanel from './components/expertspanel'
+import Stories from './components/InsipiringStories'
+import WeekHero from './components/weekheros'
+import MentalHealth from './components/mentalHealth'
 import JsonData from './data/data.json';
 
 export class App extends Component {
@@ -29,6 +33,10 @@ export class App extends Component {
         <Header data={this.state.landingPageData.Header} />
         <Features data={this.state.landingPageData.Features} />
         <About data={this.state.landingPageData.About} />
+        <ExpertsPanel data={this.state.landingPageData.About} />
+        <Stories data={this.state.landingPageData.About} />
+        <WeekHero />
+        <MentalHealth />
         <Services data={this.state.landingPageData.Services} />
         <Gallery />
         <Testimonials data={this.state.landingPageData.Testimonials} />

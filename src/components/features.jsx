@@ -7,6 +7,7 @@ export class features extends Component {
         <div className="container">
           <div className="col-md-10 col-md-offset-1 section-title">
             <h2>Features</h2>
+            <h2>Features sub text</h2>
           </div>
           <div className="row">
             {this.props.data

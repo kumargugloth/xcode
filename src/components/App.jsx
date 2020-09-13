@@ -9,6 +9,7 @@ import Testimonials from './testimonials';
 import Team from './Team';
 import Contact from './contact';
 import $ from 'jquery';
+import ExpertsPanel from './expertspanel'
 
 export class App extends Component {
   state = {
@@ -40,6 +41,7 @@ export class App extends Component {
         <Header data={this.state.resumeData.Header}/>
         <Features data={this.state.resumeData.Features}/>
         <About  data={this.state.resumeData.About}/>
+        <ExpertsPanel  data={this.state.resumeData.About}/>
         <Services  data={this.state.resumeData.Services}/>
         <Gallery />
         <Testimonials  data={this.state.resumeData.Testimonials}/>

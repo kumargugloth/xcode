@@ -186,12 +186,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) center center no-repeat;
-	background-color: #e5e5e5;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
+	/* background: url(../img/intro-bg.jpg) center center no-repeat; */
+	background-color: #FFC684;
+	/* -webkit-background-size: cover; */
+	/* -moz-background-size: cover; */
+	/* background-size: cover; */
+	/* -o-background-size: cover; */
 }
 .intro .overlay {
 	background: rgba(0,0,0,0.2);
@@ -218,14 +218,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-bottom: 60px;
 }
 header .intro-text {
-	padding-top: 350px;
-	padding-bottom: 200px;
-	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 50px;
+	/* text-align: center; */
 }
 /* Features Section */
 #features {
-	padding: 100px 0;
-	background: #f6f6f6;
+	padding: 50px 0;
+	background: #fff;
 }
 #features i.fa {
 	font-size: 38px;
@@ -239,9 +239,60 @@ header .intro-text {
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
+.viewall{text-align: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.viewalltext{
+color: #4a4a4a !important;
+font-size: 32px;
+margin-bottom: 30px;
+background-color: #fff;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+#experts{
+	padding: 50px 0;
+	background-color:#fff;
+}
+.innercontainer1{
+	margin-left:40;
+	margin-right: 40;
+}
+
+#stories {
+	padding: 250px 0;
+	background: #fafafa;
+}
+
+#weekheros{
+	padding: 50px 0;
+	background-color:#fff;
+}
+.viewallWeek{
+	text-align: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.viewallweek{
+	color: #fff !important;
+	font-size: 32px;
+	margin-bottom: 30px;
+	background-color: #F1AA59;
+	padding-left: 10px;
+	padding-right: 10px;
+}
 /* About Section */
 #about {
-	padding: 100px 0;
+	padding: 50px 0;
+	background-color:#FFC684;
 }
 #about h3 {
 	font-size: 22px;
@@ -578,3 +629,15 @@ color: #777;
 	margin: 50px 0;
 }
 }
+
+/* .container{
+	display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.row{
+	display: flex;
+    width: 100%;
+    flex: 1;
+    flex-direction: column;
+} */
